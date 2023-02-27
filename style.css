@@ -448,7 +448,7 @@ header {
 /* this is collection style  */
 
 .collection {
-    margin: 2% 0px;
+    margin: 0 0px 2%;
     padding: 4% 0 2%;
     overflow: hidden;
     background-color: #f8f4f2;
