@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css...  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tab icon  -->
+    <link rel="icon" type="image/x-iocn" href="img/icons/logo-icon.jpg">
+    
+    <!-- fotnawesome  -->
+    <link rel="icon" type="image/x-icon" href="img/icons/logo-icon.jpg">
+    <script src="https://kit.fontawesome.com/f01941449c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#icon').click(function() {
+                $('.links').toggleClass('show')
+            });
+        });
+    </script>
+    <title>VEEDTECH</title>
+</head>
+<body>
+    <!-- this is navbar section -->
+    <nav>
+        <div class="nav-content">
+            <div class="row-1">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo/my-project-logo [Recovered].png" alt="logo"></a>
+                </div>
+                <div class="line"></div>
+                
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html" class="links-a active">الصفحة الرئيسية</a></li>
+                        <li><a href="about.html" class="links-a">معلومات عنا</a></li>
+                        <li class="tab-00">
+                            <a href="#" class="links-a tab-00">خدماتنا<i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="drop-down-service">
+                                <div class="d-d-s-content">
+                                    <ul>
+                                        <li >
+                                            <a href="web-design-development.html">
+                                            <div class="web-dev">
+                                                <div class="w-d-img-icon">                   
+                                                    <img src="img/icons/web-development.png" alt="pic">
+                                                </div>
+                                                <div class="web-dev-text">
+                                                    <h3>تصميم وتطوير المواقع الإلكترونية</h3>
+                                                    <p>تقدم مواقعنا الإلكترونية تجارب ذكية و فريدة من نوعها مع احدث التصاميم الفنية.</p>
+                                                    <span>لمعرفة المزيد<i class="fa-solid fa-arrow-left"></i></span>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="mobile-app-developmwnt.html" class="a-hover">
+                                            <div class="web-dev">
+                                                <img src="img/icons/mob-apps.png" alt="pic">
+                                                <div class="web-dev-text">
+                                                    <h3>Mobile Apps Development</h3>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                    <figcaption>Discover More <i class="fa-solid fa-arrow-right"></i></figcaption>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li> -->
+                                        <li>
+                                            <a href="graphic-design.html">
+                                            <div class="web-dev">
+                                                <div class="w-d-img-icon">
+                                                    <img src="img/icons/graphic-design.png" alt="pic">
+                                                </div>                                              
+                                                <div class="web-dev-text">
+                                                    <h3>التصميم الجرافيكي</h3>
+                                                    <p>"نقدم خدمات تصميم جرافيكي ابداعية وجذابة لتميز علامتك التجارية وتحقيق أهدافك التسويقية بفن ودقة في التصميم."</p>
+                                                    <span>لمعرفة المزيد<i class="fa-solid fa-arrow-left"></i></span>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="d-d-s-content">
+                                    <ul>
+                                        <li>
+                                            <a href="digital-marketing.html">
+                                            <div class="web-dev">
+                                                <div class="w-d-img-icon">
+                                                    <img src="img/icons/digita-M.png" alt="pic">
+                                                </div>
+                                                <div class="web-dev-text">
+                                                    <h3>التسويق الإلكتروني</h3>
+                                                    <p>"خدمة التسويق الرقمي تعزز الوجود الإلكتروني وتزيد من المبيعات عبر الإنترنت."</p>
+                                                    <span>لمعرفة المزيد<i class="fa-solid fa-arrow-left"></i></span>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="social-media-management.html">
+                                            <div class="web-dev">
+                                                <div class="w-d-img-icon">
+                                                    <img src="img/icons/social-media-management.png" alt="pic">
+                                                </div>
+                                                <div class="web-dev-text">
+                                                    <h3>إدارة مواقع التواصل الاجتماعي</h3>
+                                                   <p>"إدارة مواقع التواصل الاجتماعي تساعد العلامة التجارية على بناء وتعزيز صورتها الرقمية بفعالية."</p>
+                                                   <span>لمعرفة المزيد<i class="fa-solid fa-arrow-left"></i></span>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="portfolio.html" class="links-a">أعمالنا</a></li>
+                        <li><a href="contact.html" class="links-a">إستشرنا</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="icon">
+                <i class="fas fa-bars" onclick="changeIcon(this)"></i>
+            </div>
+            <div class="call-us">
+                <a href="tel:0643569435">إتصل بنا</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- this is header section -->
+
+    <header>
+        <div class="head-content">
+            <div class="head-text hidden">
+                <h1>ابتكارات رقمية لتحويل فكرتك إلى واقع</h1>
+                <p>لنجعل تصميم علامتك التجارية ينبض بالحياة.</p>
+                <a href="contact.html">استفسر منا</a>
+            </div>
+            <div class="head-img hidden">
+                <img src="img/Pictures/laptop-pic.png" alt="picture">
+            </div>
+        </div>
+    </header>
+
+    <!-- this is about us Section  -->
+
+    <div class="about-us">
+        <div class="about-us-content">
+            <!-- <div class="about-us-img a-u-image">
+                <img src="img/Pictures/about-img.png" alt="">
+            </div> -->
+            <div class="about-us-text hidden">
+                <div class="a-u-header">
+                    <h1>شركة تستطيع الوثوق بها.</h1>
+                </div>
+                <p>"شركة متخصصة في تطوير المواقع وتصميم الجرافيك وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي. نسعى جاهدين لتقديم أفضل الخدمات وأحدث التقنيات لعملائنا، لنساعدهم على تحقيق نجاحهم في العالم الرقمي بأسلوب مبتكر وفعال."</p>
+                <a href="about.html">إقرأ المزيد</a>
+            </div>
+            <div class="about-us-img hidden">
+                <img src="img/Pictures/about-img.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- this is specialization section  -->
+
+    <div class="our-spec">
+        <div class="our-spec-content">
+            <div class="o-s-header">
+                <h1>خدماتنا</h1>
+            </div>
+            <div class="boxs">
+                <div class="o-s-box  hidden">
+                    <img src="img/icons/web-development.png" alt="pic">
+                    <h2>تصميم وتطوير المواقع الإلكترونية</h2>
+                    <p>المواقع الإلكترونية تمثل أساسًا حيويًا لعالمنا الحديث وتحقيق الاحتياجات وتوفير الراحة والفعالية.</p>
+                </div>
+                <!-- <div class="o-s-box">
+                    <img src="img/icons/mob-apps.png" alt="pic">
+                    <h2>Mobile Apps Development</h2>
+                    <p>Use the power of Webflow CMS to add new case studies, blog posts, categories and tags.</p>
+                </div> -->
+                <!-- <div class="o-s-box">
+                    <img src="img/icons/e-com-store.png" alt="pic">
+                    <h2>e-commerce Stores</h2>
+                    <p>Use the power of Webflow CMS to add new case studies, blog posts, categories and tags.</p>
+                </div> -->
+                <div class="o-s-box  hidden">
+                    <img src="img/icons/graphic-design.png" alt="pic">
+                    <h2>التصميم الجرافيكي</h2>
+                    <p>التصميم الجرافيكي يعزز تجارب المستخدمين عن طريق جعل المعلومات أسهل للوصول إليها، وأكثر تفهّمًا وأجمل بصريًا.</p>
+                </div>
+                <div class="o-s-box  hidden">
+                    <img src="img/icons/digita-M.png" alt="pic">
+                    <h2>التسويق الإلكتروني</h2>
+                    <p>يروج التسويق الرقمي للمنتجات / الخدمات من خلال القنوات الرقمية للوصول إلى الجماهير المستهدفة وإشراكها وتحويلها.</p>
+                </div>
+                <div class="o-s-box  hidden">
+                    <img src="img/icons/social-media-management.png" alt="pic">
+                    <h2>إدارة مواقع التواصل الاجتماعي</h2>
+                    <p>تتضمن إدارة الوسائط الاجتماعية إنشاء وجدولة وتحليل المحتوى لتحقيق أهداف التسويق على المنصات الاجتماعية.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- this our brand who switched to us  -->
+
+    <div class="section-blue hidden">
+        <div class="section-blue-content">
+            <div class="s-b-header">
+                <h1>إنضم إلى أكثر من 50 شركة الذين صممت مواقعهم من قبل فيدتيك</h1>
+                <div class="brands">
+                    <p>بعض الشركات الذين كسبنا ثقتهم</p>
+                    <div class="brands-img">
+                        <img src="img/Pictures/60587b5d9eb79a1e8dba525d_logo-1.png" alt="pic">
+                        <img src="img/Pictures/60587b5d9eb79a76f1ba525a_logo-4.png" alt="pic">
+                        <img src="img/Pictures/60587b5d9eb79aaed2ba525c_logo-3 (1).png" alt="pic">
+                        <img src="img/Pictures/60587b5d9eb79a1c3dba525b_logo-2.png" alt="pic">
+                    </div>
+                    <div class="brands-img hide-80">
+                        <div class="block-s-b">
+                            <img src="img/Pictures/60587b5d9eb79a1e8dba525d_logo-1.png" alt="pic">
+                            <img src="img/Pictures/60587b5d9eb79a76f1ba525a_logo-4.png" alt="pic">
+                        </div>
+                        <div class="block-s-b">
+                            <img src="img/Pictures/60587b5d9eb79aaed2ba525c_logo-3 (1).png" alt="pic">
+                            <img src="img/Pictures/60587b5d9eb79a1c3dba525b_logo-2.png" alt="pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is our service  -->
+    <section>
+
+        <div class="our-service">
+            <div class="our-service-content">
+                <div class="our-service-text hidden">
+                    <h1>تصميم وتطوير المواقع الإلكترونية</h1>
+                    <p>يعد تصميم وتطوير الويب من الجوانب الحاسمة لبناء وجود ناجح عبر الإنترنت.</p>
+                    <a href="web-design-development.html">إقرأ المزيد</a>
+                </div>
+                <div class="our-service-img hidden">
+                    <img src="img/Pictures/web-dev.png" alt="">
+                </div>
+                <div class="our-service-img o-s-mob hidden">
+                    <img src="img/Pictures/web-dev.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="our-service o-s-2">
+            <div class="our-service-content hidden">
+                <div class="our-service-img hidden">
+                    <img src="img/Pictures/graphic-design-sr.png" alt="">
+                </div>
+                <div class="our-service-text hidden">
+                    <h1>التصميم الجرافيكي</h1>
+                    <p>التصميم الجرافيكي هو فن الاتصال المرئي الذي يجمع بين النص والصور والعناصر الأخرى لنقل رسالة أو فكرة.</p>
+                    <a href="graphic-design.html">إقرأ المزيد</a>
+                </div>
+                <div class="our-service-img o-s-mob hidden">
+                    <img src="img/Pictures/graphic-design-sr.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="our-service">
+            <div class="our-service-content">
+                <div class="our-service-text  hidden">
+                    <h1>التسويق الإلكتروني</h1>
+                    <p>التسويق الرقمي هو ممارسة الترويج للمنتجات أو الخدمات من خلال القنوات الرقمية ، مثل وسائل التواصل الاجتماعي ومحركات البحث والبريد الإلكتروني والمواقع الإلكترونية.</p>
+                    <a href="digital-marketing.html">إقرأ المزيد</a>
+                </div>
+                <div class="our-service-img  hidden">
+                    <img src="img/Pictures/digital-mar-png.png" alt="">
+                </div>
+                <div class="our-service-img o-s-mob  hidden">
+                    <img src="img/Pictures/digital-mar-png.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="our-service o-s-2">
+            <div class="our-service-content">
+                <div class="our-service-img  hidden">
+                    <img src="img/Pictures/social-media-management.png" alt="">
+                </div>
+                <div class="our-service-text  hidden">
+                    <h1>إدارة مواقع التواصل الاجتماعي</h1>
+                    <p>إدارة وسائل التواصل الاجتماعي هي ممارسة للترويج للمنتجات أو الخدمات من خلال القنوات الرقمية ، مثل وسائل التواصل الاجتماعي ومحركات البحث والبريد الإلكتروني والمواقع الإلكترونية.</p>
+                    <a href="social-media-management.html">إقرأ المزيد</a>
+                </div>
+                <div class="our-service-img o-s-mob  hidden">
+                    <img src="img/Pictures/social-media-management.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- this is collection section  -->
+
+    <div class="collection">
+        <div class="coll-header">
+            <h1>أخر أعمالــنا</h1>
+        </div>
+        <div class="coll-content hidden">
+            <div class="coll-img">
+                <img src="img/latest-work/pc-2.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc-3.jpg" alt="pic">
+            </div>
+        </div>
+        <div class="coll-content row-2">
+            <div class="coll-img">
+                <img src="img/latest-work/pc-6.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc-5.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc4.jpg" alt="pic">
+            </div>
+        </div>
+
+        <div class="coll-content hidden">
+            <div class="coll-img">
+                <img src="img/latest-work/pc-9.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc-7.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc8.jpg" alt="pic">
+            </div>
+        </div>
+
+        <div class="coll-content row-2">
+            <div class="coll-img">
+                <img src="img/latest-work/pc-12.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc-10.jpg" alt="pic">
+            </div>
+            <div class="coll-img">
+                <img src="img/latest-work/pc-13.jpg" alt="pic">
+            </div>
+        </div>
+    </div>
+
+    <!-- this why veedtech section -->
+
+    <div class="why-us">
+        <div class="why-us-content">
+            <div class="w-u-img  hidden">
+                <img src="img/Pictures/HR-GR8-technology.jpg" alt="picture">
+            </div>
+            <div class="w-u-text  hidden">
+                <h1>لماذا فيدتيك هي الأفضل بالنسبة لك؟</h1>
+                <p>يمكن لـ فيدتيك مساعدتك في بناء علامتك التجارية الخاصة بك ، وزيادة حركة المرور الخاصة بك على الإنترنت ، ورفع تصنيف ملفك الشخصي وبناء حضور قوي على الإنترنت. نقوم بإنشاء موقع ويب يجذب عملاء جدد وتطبيقات تسهل طلب منتجاتك ويمكننا تحويل أي فكرة إلى تطبيق أو موقع ويب.</p>
+                <a href="why-veedtech-best.html">إقرأ المزيد</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- this is client reviews  -->
+
+    <div class="reviews">
+        <div class="reviews-header">
+            <h1>ماذا يقول عملائنا عنا</h1>
+        </div>
+        <div class="reviews-content">
+            <div class="rev-box">
+                <div class="r-box hidden">
+                    <div class="stars">
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev-prof">
+                        <img src="img/Pictures/A.jpg" alt="picture">
+                        <div class="prof-text">
+                            <h3>علي المسعودي</h3>
+                        </div>
+                    </div>
+                    <p> مشاء الله فريق رائع، نتمنى لكم التوفي إنشاء الله</p>
+                </div>
+                <div class="r-box hidden">
+                    <div class="stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev-prof">
+                        <img src="img/Pictures/review-M.jpg" alt="picture">
+                        <div class="prof-text">
+                            <h3>مريم سويطي</h3>
+                        </div>
+                    </div>
+                    <p>"عمل التصميم الجرافيكي الخاص بهم كان ممتازًا وأعطى حياة جديدة لعلامتنا التجارية."</p>
+                </div>
+                <div class="r-box hidden">
+                    <div class="stars">
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev-prof">
+                        <img src="img/Pictures/O.jpg" alt="picture">
+                        <div class="prof-text">
+                            <h3>عمر اليوسفي</h3>
+                        </div>
+                    </div>
+                    <p>"حسابات التواصل الاجتماعي لم تبدو بهذا الجمال منذ بدأنا العمل مع هذه الشركة."
+                    </p>
+                </div>
+                <div class="r-box hidden">
+                    <div class="stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev-prof">
+                        <img src="img/Pictures/review-M.jpg" alt="picture">
+                        <div class="prof-text">
+                            <h3>محمد المجدي</h3>
+                        </div>
+                    </div>
+                    <p>"نوصي بشدة باستخدام خدماتهم لأي شخص يحتاج إلى حلول رقمية ذات جودة عالية."</p>
+                </div>
+                <div class="r-box hidden">
+                    <div class="stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev-prof">
+                        <img src="img/Pictures/review-M.jpg" alt="picture">
+                        <div class="prof-text">
+                            <h3>مصطفى الشكرادي</h3>
+                        </div>
+                    </div>
+                    <p>"الاستراتيجية الرقمية التي قاموا بتنفيذها كانت نقلة نوعية حقيقية لأعمالنا."</p>
+                </div>
+                <div class="r-box hidden">
+                    <div class="stars">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="rev-prof">
+                        <img src="img/Pictures/S.jpg" alt="picture">
+                        <div class="prof-text">
+                            <h3>سمية الناجي</h3>
+                        </div>
+                    </div>
+                    <p>"فريق إدارة التواصل الاجتماعي يقدم محتوى مشوقًا باستمرار لجمهورنا."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is footer  -->
+     
+    <footer>
+        <div class="f-row-1">
+            <a href="index.html"><img src="img/logo/my-project-logo-white.png" alt="logo"></a>
+        </div>
+        <div class="footer-content">
+            <div class="f-row-2">
+                <div class="f-text">
+                    <p>"شركة متخصصة في تطوير المواقع وتصميم الجرافيك وإدارة وسائل التواصل الاجتماعي والتسويق الرقمي. نسعى جاهدين لتقديم أفضل الخدمات وأحدث التقنيات لعملائنا، لنساعدهم على تحقيق نجاحهم في العالم الرقمي بأسلوب مبتكر وفعال."</p>
+                </div>
+                <div class="s-m-links">
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.tiktok.com/@veedtech?_t=8aBM6T6EBT3&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://instagram.com/veedtechmaroc?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100090777842447&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copy-text">
+                    <p>Copyright © 2023 - All Rights Reserved By <span><a href="index.html">Veedtech</a></span></p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="about.html">معلومات عنا</a></li>
+                        <li><a href="contact.html">إستشرنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
